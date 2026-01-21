@@ -1,0 +1,129 @@
+/* Keep all your old styles */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #ff914d;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav .logout-btn {
+    background: white;
+    color: #ff914d;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav .logout-btn:hover {
+    background: #ffe0c4;
+}
+
+.section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.services {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 250px;
+}
+
+.light-bg {
+    background: #fff3e8;
+}
+
+.testimonial {
+    font-style: italic;
+    border-left: 5px solid #ff914d;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form button {
+    background: #ff914d;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #e67e3f;
+}
+
+.feedback-card {
+    background: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-left: 5px solid #ff914d;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.login-section {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+    }
+}

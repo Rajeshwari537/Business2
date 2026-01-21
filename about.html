@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Paws & Care | About</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<script>
+    if(!localStorage.getItem("loggedIn")) {
+        window.location.href = "login.html";
+    }
+</script>
+
+<header>
+    <h1>Paws & Care 🐾</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="index.html#topics">Services</a>
+        <a href="index.html#why">Why Us</a>
+        <a href="index.html#portfolio">Portfolio</a>
+        <a href="index.html#testimonials">Testimonials</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="index.html#feedback">Feedback</a>
+        <button onclick="logout()" class="logout-btn">Logout</button>
+    </nav>
+</header>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+        Paws & Care is built on trust, love, and responsibility.
+        We believe every pet deserves personalized attention and care.
+    </p>
+    <p>
+        With years of experience, we ensure pets feel comfortable,
+        secure, and loved while you’re away.
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 Paws & Care Pet Sitting</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
